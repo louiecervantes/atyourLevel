@@ -40,7 +40,7 @@ def app():
     if selected_option=='kinder':
         level = selected_option
     else:
-         level = selected_option
+        level = selected_option
              
     # Create a multiline text field
     user_input = st.text_area('Paste the topic in this box', height=10)
