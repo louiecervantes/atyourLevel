@@ -47,7 +47,7 @@ def app():
     
              
     # Display the text when the user submits the form
-    if st.button('Submit')::
+    if st.button('Submit'):
         output = summarize("Generate a summary appropriate for the mental level of " + level + " of the topic " + user_input)
         st.write(output)
 
