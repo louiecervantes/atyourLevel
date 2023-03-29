@@ -25,8 +25,8 @@ def summarize(input_string):
 
 # Define the Streamlit app
 def app():
-    st.header("Welcome to atyourLevel")
-    st.subheader("Louie F. Cervantes M. Eng. \n(c) 2023 WVSU College of ICT")
+    st.header("Welcome to atyourLevel App")
+    st.subheader("\n\nLouie F. Cervantes M. Eng. \n(c) 2023 WVSU College of ICT")
     
     st.title("atyourLevel is a Topic Summarizer")
     st.write("This app uses the openAI davinci-gpt3 engine to generate age appropriate summary of any complex topic.")
