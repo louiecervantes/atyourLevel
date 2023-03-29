@@ -38,9 +38,9 @@ def app():
     options = ['kinder', 'elementary', 'high school', 'senior high', 'college', 'graduate school', 'post-graduate']
     selected_option = st.selectbox('Select the level of the user', options)
     if selected_option=='kinder':
-        language = selected_option
+        level = selected_option
     else:
-         language = selected_option
+         level = selected_option
              
     # Create a multiline text field
     user_input = st.text_area('Paste the topic in this box', height=10)
