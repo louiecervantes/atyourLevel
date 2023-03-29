@@ -30,7 +30,7 @@ def app():
     
     st.title("atyourLevel is a Topic Summarizer")
     st.write("This app uses the openAI davinci-gpt3 engine to generate age appropriate summary of any complex topic.")
-    st.write("To try an example, copy paste the sample topic below into the input box.  You can also come up with your own set of instructions.")
+    st.write("To try an example, copy paste the sample topic below into the input box.  You can also come up with your own topic, just type or copy-paste.")
     st.write("Example topic:")
     st.write("ChatGPT is a large language model developed by OpenAI based on the GPT-3 architecture. It has been trained on a massive amount of text data using unsupervised learning techniques to generate human-like responses to text-based prompts. ChatGPT is capable of performing a wide range of natural language processing tasks such as text completion, question-answering, summarization, translation, and more. It has the ability to understand context, recognize patterns, and generate coherent and relevant responses to a variety of inputs. ChatGPT is designed to improve its performance with more training data and can adapt to different tasks and domains with fine-tuning.")
     
