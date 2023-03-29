@@ -43,12 +43,12 @@ def app():
          language = selected_option
              
     # Create a multiline text field
-    user_input = st.text_area('Paste the instructions in this box', height=10)
+    user_input = st.text_area('Paste the topic in this box', height=10)
     
              
     # Display the text when the user submits the form
     if st.button('Submit'):
-        output = summarize("Generate a summary appropriate for the mental level of " + level + " of the topic " + user_input)
+        output = summarize("Summary for a person whose school age is " + level + " of the topic " + user_input)
         st.write(output)
 
 # Run the app
