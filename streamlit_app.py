@@ -48,7 +48,7 @@ def app():
              
     # Display the text when the user submits the form
     if st.button('Submit'):
-        output = summarize("Summary for a person whose school age is " + level + " of the topic " + user_input)
+        output = summarize("Summarize for " + level + " the topic " + user_input)
         st.write(output)
 
 # Run the app
